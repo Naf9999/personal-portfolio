@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: purple;
+    color: #0be6e6;
+    line-height: 1.6;
+}
+header{
+    background-color: purple;
+    color: #0be6e6;
+    padding: 1 rem;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 1.2 rem;
+}
+section{
+    max-width: 800px;
+    margin: 20px auto;
+    background: #081fee;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+p{
+    font-size: 1.1rem;
+}
+#contact{
+    text-align: center;
+    font-weight: bold;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+
+}
+#contact-text-name{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+.email-input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.your-message{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
